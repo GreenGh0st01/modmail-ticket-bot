@@ -7,8 +7,21 @@ A button-based modmail and ticket bot built with `discord.py`.
 - `main.py`
 - `config.py`
 - `requirements.txt`
+- `modmail_bot/`
 - `.env`
 - `.env.example`
+
+## Structure
+
+- `main.py` runs the bot
+- `config.py` loads environment variables
+- `modmail_bot/bot.py` contains the bot class
+- `modmail_bot/commands.py` registers prefix commands
+- `modmail_bot/views.py` contains the support button view
+- `modmail_bot/embeds.py` builds embeds
+- `modmail_bot/tickets.py` handles ticket formatting and helpers
+- `modmail_bot/state.py` stores in-memory bot state
+- `modmail_bot/constants.py` stores shared constants
 
 ## Setup
 
